@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- =========================
+         PROGRESS RING
+         ========================= -->
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,18 A36,36 0,1 1,28.54 28.54"
+        android:strokeColor="#B980FF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- =========================
+         RUNNER
+         ========================= -->
+
+    <!-- Head -->
+    <path
+        android:fillColor="#F8F4FF"
+        android:pathData="M67,31
+                          A5,5 0,1 1,57,31
+                          A5,5 0,1 1,67,31" />
+
+    <!-- Body -->
+    <path
+        android:fillColor="#F8F4FF"
+        android:pathData="M58,39
+                          C55,38 52,40 51,43
+                          L47,53
+                          L41,63
+                          C40,65 41,68 44,69
+                          C46,70 48,69 49,67
+                          L55,58
+                          L60,50
+                          L65,57
+                          L73,64
+                          C75,66 78,66 80,64
+                          C81,62 81,60 79,58
+                          L70,49
+                          L67,42
+                          C65,40 62,39 58,39z" />
+
+    <!-- Left arm -->
+    <path
+        android:fillColor="#F8F4FF"
+        android:pathData="M54,43
+                          L47,48
+                          L40,47
+                          C38,47 37,48 37,50
+                          C37,52 39,53 41,53
+                          L50,54
+                          L59,48z" />
+
+    <!-- Right arm -->
+    <path
+        android:fillColor="#F8F4FF"
+        android:pathData="M64,43
+                          L70,48
+                          L77,44
+                          C79,43 81,44 82,46
+                          C83,48 82,50 80,51
+                          L72,55
+                          C70,56 68,55 67,54
+                          L61,49z" />
+
+    <!-- Left leg -->
+    <path
+        android:fillColor="#B980FF"
+        android:pathData="M56,55
+                          L51,67
+                          L43,76
+                          C42,78 42,80 44,81
+                          C46,82 48,81 49,80
+                          L59,71
+                          L65,60z" />
+
+    <!-- Right leg -->
+    <path
+        android:fillColor="#DCC7FF"
+        android:pathData="M61,55
+                          L67,64
+                          L63,76
+                          L58,84
+                          C57,86 58,88 60,89
+                          C62,90 64,89 65,87
+                          L73,77
+                          C74,75 75,73 74,71
+                          L68,57z" />
+
+    <!-- =========================
+         MOTION LINES
+         ========================= -->
+
+    <path
+        android:fillColor="#9B6CFF"
+        android:pathData="M24,42h17v3h-17z" />
+
+    <path
+        android:fillColor="#A875FF"
+        android:pathData="M20,49h21v3h-21z" />
+
+    <path
+        android:fillColor="#8E5CE6"
+        android:pathData="M25,56h15v3h-15z" />
+
+    <!-- =========================
+         LEAVES
+         ========================= -->
+
+    <!-- Large green leaf -->
+    <path
+        android:fillColor="#35D39A"
+        android:pathData="M24,82
+                          C31,76 41,77 49,84
+                          C54,89 55,96 54,101
+                          C44,98 34,94 28,89
+                          C25,87 23,84 24,82z" />
+
+    <!-- Leaf cut/detail -->
+    <path
+        android:fillColor="#17162B"
+        android:pathData="M30,83
+                          C37,87 44,91 51,97
+                          C44,91 38,87 30,83z" />
+
+    <!-- Smaller dark teal leaf -->
+    <path
+        android:fillColor="#167A72"
+        android:pathData="M51,94
+                          C58,86 67,84 76,86
+                          C72,94 65,100 54,101
+                          C52,100 51,97 51,94z" />
+
+</vector>
